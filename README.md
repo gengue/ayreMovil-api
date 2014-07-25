@@ -1,6 +1,6 @@
 # API REST - ayreMovil
 
-a [Sails](http://sailsjs.org) application (nodejs)
+a [Sails](http://sailsjs.org) application (nodejs, mysql)
 
 Servicios web de prueba para prototipo de aplicacion movil del modulo academico de Admisiones (Universidad Del Magdalena)
 

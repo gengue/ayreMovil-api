@@ -36,7 +36,7 @@ module.exports = {
   	cartera: 'boolean',
   	clinica: 'boolean',
   	laboratorios: 'boolean',
-    periodo: 'string',
+        periodo: 'string',
   	estado: {
   		type: 'string',
   		enum: ['Antiguo', 'Nuevo', 'Graduado'],
@@ -45,7 +45,7 @@ module.exports = {
   	programa: {
   		model: 'programa'
   	},
-    toJSON: function() { /* este metodo evita que la contraseña llegue al cliente */
+        toJSON: function() { /* este metodo evita que la contraseña llegue al cliente */
 		var obj = this.toObject();
 		delete obj.password;
 		return obj;

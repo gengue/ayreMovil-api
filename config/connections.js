@@ -2,6 +2,14 @@
 
 module.exports.connections = {
 
+   postgresql: {
+    adapter: 'sails-postresql',
+    host: 'ec2-54-225-101-164.compute-1.amazonaws.com',
+    user: 'ubzsdwrmtptmuh',
+    password: 'zxlya3vz2mM_-uejl2AB-PYuDB',
+    database: 'dfqjfq2nsesbkc'
+  },
+
   MysqlServer: {
     adapter: 'sails-mysql',
     host: 'localhost',

@@ -1,1 +1,1 @@
-web:  export NODE_ENV=production; sails lift
+web: node .app.js

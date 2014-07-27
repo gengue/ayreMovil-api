@@ -4,10 +4,7 @@ module.exports.connections = {
 
    mongodb: {
     adapter: 'sails-mongo',
-    host: 'ds055689.mongolab.com',
-    user: 'admin',
-    password: 'delunoalnueve',
-    database: 'ayremovil'
+    url: 'MONGOHQ_URL'
   },
 
   MysqlServer: {

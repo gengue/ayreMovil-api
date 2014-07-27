@@ -3,7 +3,7 @@
 module.exports.connections = {
 
    postgresql: {
-    adapter: 'sails-postresql',
+    adapter: 'sails-postgresql',
     host: 'ec2-54-225-101-164.compute-1.amazonaws.com',
     user: 'ubzsdwrmtptmuh',
     password: 'zxlya3vz2mM_-uejl2AB-PYuDB',

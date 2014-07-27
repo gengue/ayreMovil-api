@@ -1,7 +1,7 @@
 {
   "name": "server-api",
   "private": true,
-  "version": "0.0.0",
+  "version": "0.0.0-1",
   "description": "a Sails application",
   "keywords": [],
   "dependencies": {
@@ -34,5 +34,9 @@
     "url": "git://github.com/genesis/server-api.git"
   },
   "author": "genesis",
-  "license": ""
+  "license": "",
+  "subdomain": "ayremovil-api",
+  "engines": {
+    "node": "0.10.x"
+  }
 }

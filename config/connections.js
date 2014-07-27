@@ -4,7 +4,7 @@ module.exports.connections = {
 
    mongodb: {
     adapter: 'sails-mongo',
-    url: 'MONGOHQ_URL'
+    url: MONGOHQ_URL
   },
 
   MysqlServer: {

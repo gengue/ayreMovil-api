@@ -1,10 +1,12 @@
 # API REST - ayreMovil
 
-a [Sails](http://sailsjs.org) application (nodejs, mysql)
+a [Sails](http://sailsjs.org) application (nodejs)
 
 Servicios web de prueba para prototipo de aplicacion movil del modulo academico de Admisiones (Universidad Del Magdalena)
 
 El modelo es simple solo 4 tablas en torno a los estudiantes, no se tienen en cuenta la distincion de personas-usuarios, simultaniedad, post-grados, entre otras cosas.
+
+url: http://ayremovil.herokuapp.com/
 
 uso:
 
@@ -21,6 +23,7 @@ DELETE /estudiante/:id     -> Elimina un registro dada una id
 
 
 Tambien se puede manipular atravez de querys de la siguiente manera:
+
 GET      /estudiante    
 
 GET      /estudiante/:id

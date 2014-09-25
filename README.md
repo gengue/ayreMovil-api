@@ -10,29 +10,29 @@ url: http://ayremovil.herokuapp.com/
 
 uso:
 
-GET  /estudiante           -> obtiene todos los registros
+  GET  /estudiante           -> obtiene todos los registros
 
-GET  /estudiante/:id?      -> obtiene un registro especico con la id
+  GET  /estudiante/:id?      -> obtiene un registro especico con la id
 
-POST /estudiante           -> Crea un nuevo registro
+  POST /estudiante           -> Crea un nuevo registro
 
-PUT  /estudiante/:id       -> Actualiza el registro especificado con la id
+  PUT  /estudiante/:id       -> Actualiza el registro especificado con la id
 
-DELETE /estudiante/:id     -> Elimina un registro dada una id
+  DELETE /estudiante/:id     -> Elimina un registro dada una id
 
 
 
-Tambien se puede manipular atravez de querys de la siguiente manera:
+Tambien se puede manipular mediante querys de la siguiente manera:
 
-GET      /estudiante    
+  GET      /estudiante    
 
-GET      /estudiante/:id
+  GET      /estudiante/:id
 
-POST     /estudiante/create?param1=valor&param2=valor
+  POST     /estudiante/create?param1=valor&param2=valor
 
-PUT      /estudiante/update/:id?param1=valor&param2=valor
+  PUT      /estudiante/update/:id?param1=valor&param2=valor
 
-DELETE   /estudiante/destroy/:id
+  DELETE   /estudiante/destroy/:id
 
 
 los modelos son: programa, estudiante, materia, matricula_academica

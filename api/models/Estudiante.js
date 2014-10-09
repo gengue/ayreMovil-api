@@ -16,6 +16,7 @@ module.exports = {
   	 },
   	nombres: 'string',
   	apellidos: 'string',
+    facebookuser: 'string',
   	fechaNacimiento: 'date',
   	email: {
 			type: 'string',
@@ -30,6 +31,8 @@ module.exports = {
   		type: 'string',
   		enum: ['F', 'M']
   	},
+    promedioPonderado: 'int',
+    promedioSemestral: 'int',
   	sufIngles: 'boolean',
   	prePractica: 'boolean',
   	biblioteca: 'boolean',
@@ -45,7 +48,7 @@ module.exports = {
   	programa: {
   		model: 'programa'
   	},
-        toJSON: function() { /* este metodo evita que la contraseña llegue al cliente */
+    toJSON: function() { /* este metodo evita que la contraseña llegue al cliente */
 		var obj = this.toObject();
 		delete obj.password;
 		return obj;
